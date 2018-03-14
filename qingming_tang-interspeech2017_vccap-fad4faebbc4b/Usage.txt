@@ -1,0 +1,21 @@
+This repository includes the codes used in the Interspeech 2017 paper entitled "Acoustic Feature Learning via Deep Variational Canonical Correlation Analysis".
+
+--Part one : VCCAP (Variational Canonical Correlation Analysis with Private Variables)
+Some hypers to specify (or using default)
+--Z, size of shared hidden variable of both acoustic and articulatory views
+--H1, size of private hidden variable of acoustic view
+--H2, size of private hidden variable of articulatory view
+--stdvar1, the standard variation of view 1
+--stdvar2, the standard variation of view 2
+--dropprob, drop out rate applied
+--zpenalty, the latent penalty for KL divergence term. For ELBO of VCCAP and VAE, it is 1.0; However, we can further tune it.
+
+--Part two : CTC recognizer with two layer bidirectional LSTM
+Some hypers to specify (or using default)
+--num_classes : The number of labels + 1 (42 here)
+--num_hidden : The number of hidden variables of LSTM cell per direction
+--lr : Initial learning rate
+--batch_size : Typically, 1 sequence per batch seems working best
+--fold : 0-5. Specify one fold (0-5). For each fold, the train/dev/test would be different. And thus a different CTC recognizer would be trained.
+--n_input : The per frame dimensionality of the input data
+
