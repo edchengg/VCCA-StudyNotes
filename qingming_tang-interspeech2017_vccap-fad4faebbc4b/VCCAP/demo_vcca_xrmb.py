@@ -140,6 +140,7 @@ def main(argv=None):
         trainData,tuneData,testData=read_xrmb()
     
     # Traning.
+
     model=vcca.train(model, trainData, tuneData, testData, saver, checkpoint, batch_size=200, max_epochs=300, save_interval=1, keepprob=(1.0-dropprob), tune_lr=0.0001)
 
     # Map recognition data.

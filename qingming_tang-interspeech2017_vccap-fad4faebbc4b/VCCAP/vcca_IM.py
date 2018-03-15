@@ -56,10 +56,12 @@ class VCCA(object):
             width=self.n_input1
             for i in range(len(architecture["F_hidden_widths"])):
                 print("\tLayer %d ..." % (i+1))
+                #this activation is actually used as an input tensor
                 activation=tf.nn.dropout(activation, self.keepprob)
                 weights=tf.get_variable("weights_layer_" + str(i+1), [width, architecture["F_hidden_widths"][i]])
                 biases=tf.get_variable("biases_layer_" + str(i+1), [architecture["F_hidden_widths"][i]])
                 activation=tf.add(tf.matmul(activation, weights), biases)
+                # use activation function
                 if not architecture["F_hidden_activations"][i] == None:
                     activation=architecture["F_hidden_activations"][i](activation)
                 width=architecture["F_hidden_widths"][i]
@@ -177,18 +179,19 @@ class VCCA(object):
             latent_loss_h2 = -0.5 * tf.reduce_sum(1 + self.h2_log_sigma_sq - logh2 - tf.square(subh2)/exph2 - tf.exp(self.h2_log_sigma_sq)/exph2, 1)
         else:
             latent_loss_h2=tf.constant(0.0)
+        #compute mean of elements across dimensions of a tensor
         self.latent_loss=tf.reduce_mean(latent_loss_z + latent_loss_h1 + latent_loss_h2)
         
         # Draw L samples of z.
-        z_epsshape=tf.mul(tf.shape(self.z_mean), [L,1])
+        z_epsshape=tf.multiply(tf.shape(self.z_mean), [L,1])
         eps=tf.random_normal(z_epsshape, 0, 1, dtype=tf.float32)
-        self.z1=tf.add( tf.tile(self.z_mean, [L,1]), tf.mul( tf.tile(tf.exp(0.5 * self.z_log_sigma_sq), [L,1]), eps))
+        self.z1=tf.add( tf.tile(self.z_mean, [L,1]), tf.multiply( tf.tile(tf.exp(0.5 * self.z_log_sigma_sq), [L,1]), eps))
         
         # Draw L samples of h1.
         if n_h1>0:
-            h1_epsshape=tf.mul(tf.shape(self.h1_mean), [L,1])
+            h1_epsshape=tf.multiply(tf.shape(self.h1_mean), [L,1])
             eps=tf.random_normal(h1_epsshape, 0, 1, dtype=tf.float32)
-            self.h1=tf.add( tf.tile(self.h1_mean, [L,1]), tf.mul( tf.tile(tf.exp(0.5 * self.h1_log_sigma_sq), [L,1]), eps))
+            self.h1=tf.add( tf.tile(self.h1_mean, [L,1]), tf.multiply( tf.tile(tf.exp(0.5 * self.h1_log_sigma_sq), [L,1]), eps))
         
         # Use the generator network to reconstruct view 1.
         print("Building view 1 reconstruction network H1 ...")
@@ -217,13 +220,13 @@ class VCCA(object):
                 
         # Draw L samples of z.
         eps=tf.random_normal(z_epsshape, 0, 1, dtype=tf.float32)
-        self.z2=tf.add( tf.tile(self.z_mean, [L,1]), tf.mul( tf.tile(tf.exp(0.5 * self.z_log_sigma_sq), [L,1]), eps))
+        self.z2=tf.add( tf.tile(self.z_mean, [L,1]), tf.multiply( tf.tile(tf.exp(0.5 * self.z_log_sigma_sq), [L,1]), eps))
 
         # Draw L samples of h2.
         if n_h2>0:
-            h2_epsshape=tf.mul(tf.shape(self.h2_mean), [L,1])
+            h2_epsshape=tf.multiply(tf.shape(self.h2_mean), [L,1])
             eps=tf.random_normal(h2_epsshape, 0, 1, dtype=tf.float32)
-            self.h2=tf.add( tf.tile(self.h2_mean, [L,1]), tf.mul( tf.tile(tf.exp(0.5 * self.h2_log_sigma_sq), [L,1]), eps))
+            self.h2=tf.add( tf.tile(self.h2_mean, [L,1]), tf.multiply( tf.tile(tf.exp(0.5 * self.h2_log_sigma_sq), [L,1]), eps))
 
         # Use the generator network to reconstruct view 2.
         print("Building view 2 reconstruction network H2 ...")
