@@ -15,4 +15,5 @@ Done
 Done
 ### CTC
 ### GMM/HMM
+50/100
 
