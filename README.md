@@ -10,7 +10,7 @@ Done
 ### DCCA
 Done
 ### VCCA, VCCAP
-70% Done
+80% Done
 ### VAE
 Done
 ### CTC
