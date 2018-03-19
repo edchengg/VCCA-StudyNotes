@@ -14,6 +14,7 @@ Done
 ### VAE
 Done
 ### CTC
+50/100
 ### GMM/HMM
 50/100
 
