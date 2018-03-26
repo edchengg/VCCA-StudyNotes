@@ -31,7 +31,7 @@ This repository contains a group of study material of CCA related algorithm.
 
 <img src="https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/dccae.png" width="500">
 
-[On Deep Multi-View Representation learning DCCAAE](https://github.com/edchengg/VCCA-StudyNotes/blob/master/paper/DCCAAE.pdf)
+[On Deep Multi-View Representation learning DCCAE](https://github.com/edchengg/VCCA-StudyNotes/blob/master/paper/DCCAAE.pdf)
 
 ## Variational CCA and Variational CCA Private [VCCA, VCCAP]
 
@@ -56,7 +56,9 @@ This repository contains a group of study material of CCA related algorithm.
 
 
 ## Connectionist Temporal Classification [CTC]
+
 <img src="https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/ctc.png" width="500">
+
 [CTC slides](https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/CTC.pdf)
 60/100
 
