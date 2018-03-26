@@ -7,7 +7,20 @@ This repository contains a group of study material of CCA related algorithm.
 ## Repo
 
 ### Notes
+
 [Notebook](https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/CCA_related.ipynb)
+
+The Notebook contains topics:
+
+1. CCA: Implementation in Numpy
+2. KCCA
+3. DCCA
+4. DCCAE
+5. VCCA: Derivation of the variational lower bound 
+6. VCCA-P
+7. VAE: ELBO derivation
+8. CTC
+
 ### VCCA Pytorch Implementation
 [code](https://github.com/edchengg/VCCA-StudyNotes/tree/master/VCCA_pytorch)
 ### Paper
