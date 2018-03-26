@@ -26,14 +26,29 @@ This repository contains a group of study material of CCA related algorithm.
 
 ## Deep-CCA [DCCA]
 <img src="https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/dnet.png" width="500">
+
 [Deep Canonical Correlation Analysis](https://github.com/edchengg/VCCA-StudyNotes/blob/master/paper/DCCA.pdf)
+
+<img src="https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/dccae.png" width="500">
+
 [On Deep Multi-View Representation learning DCCAAE](https://github.com/edchengg/VCCA-StudyNotes/blob/master/paper/DCCAAE.pdf)
 
 ## Variational CCA and Variational CCA Private [VCCA, VCCAP]
+
+<img src="https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/vcca.png" width="500">
+
+<img src="https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/vcca-p.png" width="500">
+
+
 [Deep Variational Canonical Correlation Analysis](https://github.com/edchengg/VCCA-StudyNotes/blob/master/paper/DVCCA.pdf)
+
+<img src="https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/vccapg.png" width="500">
+
 [Acoustic Feature Learning via Deep Variational Canonical Correlation Analysis](https://github.com/edchengg/VCCA-StudyNotes/blob/master/paper/DVCCA_app.pdf)
 
 ## Variational Auto Encoder [VAE]
+
+<img src="http://kvfrans.com/content/images/2016/08/vae.jpg" width="500">
 [Tutorial on Variational Autoencoders](https://github.com/edchengg/VCCA-StudyNotes/blob/master/paper/VAE.pdf)
 
 ## Ganerative Adversarial Networks [GAN]
@@ -41,7 +56,8 @@ This repository contains a group of study material of CCA related algorithm.
 
 
 ## Connectionist Temporal Classification [CTC]
-
+<img src="https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/ctc.png" width="500">
+[CTC slides](https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/CTC.pdf)
 60/100
 
 ## GMM/HMM
