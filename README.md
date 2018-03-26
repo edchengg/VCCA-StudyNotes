@@ -1,6 +1,6 @@
 # Canonical Correlation Analysis
 
-In statistics, canonical-correlation analysis (CCA) is a way of inferring information from cross-covariance matrices. If we have two vectors $X = (X_1, ..., X_n)$ and $Y = (Y_1, ..., Y_m)$ of random variables, and there are correlations among the variables, then canonical-correlation analysis will find linear combinations of the $X_i$ and $Y_j$ which have maximum correlation with each other.
+In statistics, canonical-correlation analysis (CCA) is a way of inferring information from cross-covariance matrices. If we have two vectors X = (X_1, ..., X_n) and Y = (Y_1, ..., Y_m) of random variables, and there are correlations among the variables, then canonical-correlation analysis will find linear combinations of the X_i and Y_j which have maximum correlation with each other.
 
 This repository contains a group of study material of CCA related algorithm.
 
