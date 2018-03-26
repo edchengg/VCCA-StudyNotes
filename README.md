@@ -1,5 +1,4 @@
 # Canonical Correlation Analysis
-<<<<<<< HEAD
 
 This repository contains a group of study material of CCA related algorithm.
 
@@ -15,11 +14,18 @@ This repository contains a group of study material of CCA related algorithm.
 [code](https://github.com/edchengg/VCCA-StudyNotes/tree/master/qingming_tang-interspeech2017_vccap-fad4faebbc4b)
 
 ## CCA
+[CCA slides 1](https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/cca_note_1.pdf)
+[CCA slides 2](https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/cca_note_2.pdf)
+[CCA notes](https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/cca_notes.pdf)
+
 [Multi-view clustering via canonical correlation analysis](https://github.com/edchengg/VCCA-StudyNotes/blob/master/paper/CCA_app.pdf)
+
+
 ## Kernel-CCA [KCCA]
 [Canonical Correlation Analysis: An Overview with application to learning methods](https://github.com/edchengg/VCCA-StudyNotes/blob/master/paper/KCCA.pdf)
 
 ## Deep-CCA [DCCA]
+<img src="https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/dnet.png" width="500">
 [Deep Canonical Correlation Analysis](https://github.com/edchengg/VCCA-StudyNotes/blob/master/paper/DCCA.pdf)
 [On Deep Multi-View Representation learning DCCAAE](https://github.com/edchengg/VCCA-StudyNotes/blob/master/paper/DCCAAE.pdf)
 
