@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.26)  29 MAR 2018 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.26)  29 MAR 2018 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -793,20 +793,143 @@ File: vcca-p.png Graphic file (type png)
  <use vcca-p.png>
 Package pdftex.def Info: vcca-p.png used on input line 145.
 (pdftex.def)             Requested size: 284.53291pt x 170.71648pt.
- [5 <./repara.png> <./repa_code.png> <./dnn_code.png>] [6 <./vcca-p.png>] (./pd
-f.aux) )
+ [5 <./repara.png> <./repa_code.png> <./dnn_code.png>]
+<acous.png, id=50, 297.11pt x 227.85126pt>
+File: acous.png Graphic file (type png)
+ <use acous.png>
+Package pdftex.def Info: acous.png used on input line 154.
+(pdftex.def)             Requested size: 284.54233pt x 170.72113pt.
+
+<art.png, id=51, 464.73625pt x 300.12125pt>
+File: art.png Graphic file (type png)
+ <use art.png>
+Package pdftex.def Info: art.png used on input line 159.
+(pdftex.def)             Requested size: 284.53111pt x 170.72284pt.
+
+<vccapg.png, id=52, 532.99126pt x 309.155pt>
+File: vccapg.png Graphic file (type png)
+ <use vccapg.png>
+Package pdftex.def Info: vccapg.png used on input line 167.
+(pdftex.def)             Requested size: 284.53348pt x 170.71977pt.
+ [6 <./vcca-p.png> <./acous.png> <./art.png>] <ex.png, id=59, 501.875pt x 409.5
+3pt>
+File: ex.png Graphic file (type png)
+ <use ex.png>
+Package pdftex.def Info: ex.png used on input line 198.
+(pdftex.def)             Requested size: 284.54012pt x 199.1717pt.
+
+<cov.png, id=60, 574.145pt x 183.68625pt>
+File: cov.png Graphic file (type png)
+ <use cov.png>
+Package pdftex.def Info: cov.png used on input line 199.
+(pdftex.def)             Requested size: 284.53117pt x 85.35995pt.
+ [7 <./vccapg.png> <./ex.png> <./cov.png>] <eig.png, id=68, 544.0325pt x 276.03
+125pt>
+File: eig.png Graphic file (type png)
+ <use eig.png>
+Package pdftex.def Info: eig.png used on input line 229.
+(pdftex.def)             Requested size: 284.54218pt x 170.72482pt.
+
+<z.png, id=69, 520.94624pt x 234.8775pt>
+File: z.png Graphic file (type png)
+ <use z.png>
+Package pdftex.def Info: z.png used on input line 260.
+(pdftex.def)             Requested size: 284.52612pt x 142.26439pt.
+ [8 <./eig.png> <./z.png>]
+[9] <dnet.png, id=79, 336.25626pt x 361.35pt>
+File: dnet.png Graphic file (type png)
+ <use dnet.png>
+Package pdftex.def Info: dnet.png used on input line 354.
+(pdftex.def)             Requested size: 170.71878pt x 170.71672pt.
+ [10 <./dnet.png>]
+Overfull \hbox (114.02716pt too wide) in paragraph at lines 447--447
+[]        \OT1/cmtt/m/n/10 It is the loss function of CCA as introduced in the 
+original paper. There can be other formulations.[] 
+ []
+
+
+Overfull \hbox (40.5278pt too wide) in paragraph at lines 447--447
+[]        \OT1/cmtt/m/n/10 It is implemented by Theano tensor operations, and d
+oes not work on Tensorflow backend[] 
+ []
+
+
+Overfull \hbox (19.52798pt too wide) in paragraph at lines 447--447
+[]        \OT1/cmtt/m/n/10 # Calculating the root inverse of covariance matrice
+s by using eigen decomposition[] 
+ []
+
+[11] <splitae.png, id=87, 286.06876pt x 227.85126pt>
+File: splitae.png Graphic file (type png)
+ <use splitae.png>
+Package pdftex.def Info: splitae.png used on input line 503.
+(pdftex.def)             Requested size: 170.71718pt x 170.72113pt.
+ [12]
+<dccae.png, id=91, 342.27875pt x 228.855pt>
+File: dccae.png Graphic file (type png)
+ <use dccae.png>
+Package pdftex.def Info: dccae.png used on input line 512.
+(pdftex.def)             Requested size: 199.17464pt x 170.72241pt.
+
+Overfull \hbox (5.92525pt too wide) in paragraph at lines 523--525
+[]\OT1/cmr/m/n/10 object: $\OML/cmm/m/it/10 min[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr
+/m/n/10 1\OML/cmm/m/it/10 =N [][] [] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 ^^U=N [
+][]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 jj\OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 ^^
+@ \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 x[]\OT1/cmr/m/n/10 ))\OMS/cmsy/m/n/10 jj[] \OT1/cmr/m/n/10 + \OMS/cms
+y/m/n/10 jj\OML/cmm/m/it/10 y[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 q\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10
+ ))\OMS/cmsy/m/n/10 jj[]\OT1/cmr/m/n/10 )$ 
+ []
+
+[13 <./splitae.png> <./dccae.png>] [14]
+Overfull \hbox (9.02808pt too wide) in paragraph at lines 608--608
+[]\OT1/cmtt/m/n/10 latent_loss = -0.5 * tf.reduce_sum(1.0 + 2.0 * sd - tf.squar
+e(mn) - tf.exp(2.0 * sd), 1)[] 
+ []
+
+<vae.png, id=101, 360.34625pt x 448.67625pt>
+File: vae.png Graphic file (type png)
+ <use vae.png>
+Package pdftex.def Info: vae.png used on input line 627.
+(pdftex.def)             Requested size: 113.80658pt x 142.25801pt.
+ [15 <./vae.png>]
+<blank.png, id=106, 523.9575pt x 226.8475pt>
+File: blank.png Graphic file (type png)
+ <use blank.png>
+Package pdftex.def Info: blank.png used on input line 682.
+(pdftex.def)             Requested size: 227.61586pt x 113.81114pt.
+
+<ctc.png, id=107, 517.935pt x 488.82625pt>
+File: ctc.png Graphic file (type png)
+ <use ctc.png>
+Package pdftex.def Info: ctc.png used on input line 688.
+(pdftex.def)             Requested size: 170.7136pt x 170.7188pt.
+ [16 <./blank.png> <./ctc.png>] <dp_g.png, id=113, 785.93625pt x 423.5825pt>
+File: dp_g.png Graphic file (type png)
+ <use dp_g.png>
+Package pdftex.def Info: dp_g.png used on input line 732.
+(pdftex.def)             Requested size: 284.53181pt x 170.7162pt.
+
+<bs.png, id=114, 870.25125pt x 444.66125pt>
+File: bs.png Graphic file (type png)
+ <use bs.png>
+Package pdftex.def Info: bs.png used on input line 753.
+(pdftex.def)             Requested size: 284.52802pt x 170.71677pt.
+ [17 <./dp_g.png>]
+[18 <./bs.png>] (./pdf.aux) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5355 strings out of 492995
- 75187 string characters out of 6132704
+ 5431 strings out of 492995
+ 76071 string characters out of 6132704
  173967 words of memory out of 5000000
- 8796 multiletter control sequences out of 15000+600000
- 11503 words of font info for 45 fonts, out of 8000000 for 9000
+ 8857 multiletter control sequences out of 15000+600000
+ 11671 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,32p,404b,2889s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,32p,533b,2955s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
@@ -820,11 +943,12 @@ b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on pdf.pdf (6 pages, 745176 bytes).
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on pdf.pdf (18 pages, 2799431 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 171 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
