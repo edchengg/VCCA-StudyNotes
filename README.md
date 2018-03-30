@@ -9,6 +9,7 @@ This repository contains a group of study material of CCA related algorithm.
 ### Notes
 
 [Notebook](https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/CCA_related.ipynb)
+[Note.pdf](https://github.com/edchengg/VCCA-StudyNotes/blob/master/Notes/pdf.pdf)
 
 The Notebook contains topics:
 
